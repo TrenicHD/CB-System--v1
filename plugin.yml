@@ -1,0 +1,63 @@
+name: CB-System
+api: [3.0.0, 4.0.0]
+author:
+  - TrenicHD
+  - UnLegitLeon
+version: 1.0.0
+main: Trenic\CB\Main
+description: CB-Plugin By TrenicHD,UnLegitLeon
+
+commands:
+  cb:
+    description: §a Help CB-System!
+  chatclear:
+    description: §a Lösch denn Chat!
+  food:
+    description: §aFütter dich
+  heal:
+    description: §aHeile dich!
+  youtube:
+    description: §aWerbung
+  yt:
+    description: §aYoutube Befehl
+  hub:
+    description: §aHub
+  starterkit:
+    description: §aBekomme Start Items
+  invclear:
+    description: §aLösch dein Inventar!
+  night:
+    description: §aMacht Nacht
+  day:
+    description: §aMacht Tag
+  bald:
+    description: §cBald...
+  gm:
+    description: §aGamemode
+
+
+permissions:
+  info.use:
+    default: true
+  chatclear.use:
+    default: op
+  food.use:
+    default: op
+  heal.use:
+    default: op
+  youtube.use:
+    default: true
+  yt.use:
+    default: true
+  hub.use:
+    default: true
+  starterkit.use:
+    default: true
+  invclear.use:
+    default: true
+  time.use:
+    default: op
+  bald:
+    default: true
+  gm:
+    default: op
